@@ -4,37 +4,42 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>PARIS DECOR | Peinture, Vitrerie, Carrelage & Parquet – Île-de-France</title>
+  <title>ARI Bâtiment | Construction & Rénovation – Drancy (93)</title>
+
   <meta name="description"
-    content="PARIS DECOR : entreprise de rénovation située à Épinay-sur-Seine. Peinture intérieure/extérieur, vitrerie, carrelage, pose de parquet, charpente et ossature bois, petites maçonneries et rénovation complète. Devis gratuit sous 24h.">
+    content="ARI Bâtiment (SASU ARI Construction) : entreprise générale de construction et rénovation à Drancy (93). Spécialiste rénovation d’hôtellerie, aménagement intérieur, ossature bois, bardage, second œuvre & finitions. Prestations & sous-traitance. Devis rapide, suivi rigoureux, finitions durables.">
+
   <meta name="keywords"
-    content="PARIS DECOR, peinture, vitrerie, carrelage, parquet, rénovation, Épinay-sur-Seine, 43.34Z, entreprise de bâtiment, Île-de-France">
-  <!-- Open Graph (pour WhatsApp, Facebook, etc.) -->
+    content="ARI Bâtiment, ARI Construction, Drancy, 93, Toute la France, construction, rénovation, entreprise générale, second œuvre, finitions, plâtrerie, menuiserie, bardage, peinture, ossature bois, charpente, rénovation hôtellerie, sous-traitance, prestation, chantier">
+
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://akamidev.github.io/PARISDECOR/services.html">
-  <meta property="og:title" content="PARIS DECOR | Peinture, Vitrerie, Carrelage & Parquet – Île-de-France">
+  <meta property="og:url" content="https://ari-batiment.com/">
+  <meta property="og:title" content="ARI Bâtiment | Construction & Rénovation – Drancy (93)">
   <meta property="og:description"
-    content="Peinture, vitrerie, carrelage, parquet, cloisons & isolation, charpente et ossature bois, petites maçonneries et rénovation complète. en Île-de-France. Devis gratuit sous 24h.">
-  <meta property="og:image" content="https://akamidev.github.io/PARISDECOR/assets/img/og-paris-decor.jpg">
+    content="Entreprise générale : rénovation d’hôtellerie, aménagement intérieur, ossature bois, second œuvre & finitions. Prestations & sous-traitance. Devis rapide.">
+  <meta property="og:image" content="https://ari-batiment.com/assets/img/og-ari-batiment.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Logo PARIS DECOR">
+  <meta property="og:image:alt" content="Logo ARI Bâtiment">
 
-  <!-- Twitter Card (fallback sur X et autres) -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="PARIS DECOR | Peinture, Vitrerie, Carrelage & Parquet – Île-de-France">
+  <meta name="twitter:title" content="ARI Bâtiment | Construction & Rénovation – Drancy (93)">
   <meta name="twitter:description"
-    content="Peinture, vitrerie, carrelage, parquet, cloisons & isolation en Île-de-France.">
-  <meta name="twitter:image" content="https://akamidev.github.io/PARISDECOR/assets/img/og-paris-decor.jpg">
+    content="Rénovation d’hôtellerie, aménagement intérieur, ossature bois, second œuvre & finitions. Prestations & sous-traitance. Devis rapide.">
+  <meta name="twitter:image" content="https://ari-batiment.com/assets/img/og-ari-batiment.jpg">
 
-  <!-- Optionnel mais utile -->
-  <link rel="canonical" href="https://akamidev.github.io/PARISDECOR/services.html">
-  <meta name="theme-color" content="#0d6efd">
+  <link rel="canonical" href="https://ari-batiment.com/">
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#0b2a2a">
+
   <!-- Favicons -->
-  <link rel="icon" href="assets/img/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/assets/img/favicon-v2.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32-v2.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16-v2.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/img/site.webmanifest">
+  <meta name="background-color" content="#ffffff">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -53,7 +58,101 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    /* évite qu’un style template cache le loader (php-email-form) */
+    .php-email-form .loading {
+      display: none;
+      padding: 12px 14px;
+      border-radius: 10px;
+      font-weight: 600;
+      margin-top: 12px;
+    }
 
+    /* petit confort pour un strip partenaires (sans casser ton main.css) */
+    .partners-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .partner-chip {
+      background: rgba(255, 255, 255, .08);
+      border: 1px solid rgba(255, 255, 255, .14);
+      border-radius: 14px;
+      padding: 10px 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .partner-chip img {
+      height: 50px;
+      width: auto;
+      display: block;
+      object-fit: contain;
+      filter: none;
+    }
+
+    .qr-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .qr-card {
+      background: #fff;
+      border: 1px solid rgba(13, 52, 52, .12);
+      border-radius: 14px;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .qr-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+      border: 1px solid rgba(13, 52, 52, .10);
+    }
+
+    .qr-card .label {
+      margin-top: 10px;
+      font-weight: 700;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .qr-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <!-- LocalBusiness (simple + propre) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ARI Bâtiment (SASU ARI Construction)",
+    "url": "https://ari-batiment.com/",
+    "email": "contact@ari-batiment.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2 Rue Ribot",
+      "postalCode": "93700",
+      "addressLocality": "Drancy",
+      "addressCountry": "FR"
+    },
+    "areaServed": ["Toute la France", "France"],
+    "image": "https://ari-batiment.com/assets/img/og-ari-batiment.jpg"
+  }
+  </script>
 </head>
 
 <body class="index-page">
@@ -63,15 +162,24 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a
-              href="mailto:parisdecor.contact@gmail.com">parisdecor.contact@gmail.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span> +33 6 99 85 80 05</span></i>
+          <i class="bi bi-envelope d-flex align-items-center">
+            <a href="mailto:contact@ari-batiment.com">contact@ari-batiment.com</a>
+          </i>
+          <i class="bi bi-phone d-flex align-items-center ms-4">
+            <span> 06 59 94 60 88</span>
+          </i>
+          <i class="bi bi-phone d-flex align-items-center ms-3 d-none d-lg-inline">
+            <span> 07 48 65 95 44</span>
+          </i>
         </div>
+
         <div class="social-links d-none d-md-flex align-items-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61587361541069" aria-label="Facebook"><i
+              class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/agencementrenovationinterieur/" aria-label="Instagram"><i
+              class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/agencement-renovation-interieur/" aria-label="LinkedIn"><i
+              class="bi bi-linkedin"></i></a>
         </div>
       </div>
     </div><!-- End Top Bar -->
@@ -79,19 +187,26 @@
     <div class="branding d-flex align-items-cente">
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">PARIS DECOR</h1>
+          <img src="assets/img/logo-ari-construction.svg" alt="ARI Bâtiment" class="logo-img">
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="active">Accueil</a></li>
-            <li><a href="about.html">L’entreprise</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html" class="active">L’entreprise</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="projects.html">Réalisations</a></li>
+            <li><a href="quote.html">Devis</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown"><a href="#"><span>Infos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="terms.html">Mentions & CGU</a></li>
+                <li><a href="privacy.html">Confidentialité</a></li>
+              </ul>
+            </li>
+
           </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Ouvrir le menu"></i>
         </nav>
 
       </div>
@@ -106,50 +221,65 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="hero-content" data-aos="fade-right" data-aos-delay="200">
-              <span class="subtitle">Rénovation & Finition de qualité</span>
-              <h1>Peinture, Vitrerie, Carrelage & Parquet en Île-de-France</h1>
-              <p>Entreprise à taille humaine basée à Épinay-sur-Seine, PARIS DECOR accompagne particuliers, commerces et
-                copropriétés : peinture intérieure/extérieure, remplacement de vitrages, pose de carrelage et de
-                parquet, cloisons, petites maçonneries et rénovations complètes.</p>
+
+              <span class="subtitle">SASU ARI Construction • Entreprise générale</span>
+
+              <h1>Construction & rénovation : rigueur, finitions, résultats</h1>
+
+              <p>
+                Basée à <strong>Drancy (93)</strong>, ARI Bâtiment pilote vos chantiers en Toute la France :
+                <strong>rénovation d’hôtellerie</strong>, <strong>aménagement intérieur</strong>,
+                <strong>ossature bois / charpente</strong>, <strong>bardage</strong>, <strong>second œuvre</strong>
+                et <strong>finitions</strong>.
+                Nous intervenons aussi en <strong>prestation</strong> et <strong>sous-traitance</strong> pour renforcer
+                vos équipes, avec une exigence constante : chantier organisé, délais réalistes, rendu propre.
+              </p>
 
               <div class="hero-buttons">
                 <a href="quote.html" class="btn-primary">Demander un devis</a>
-                <a href="projects.html" class="btn-secondary">Voir nos chantiers</a>
+                <a href="projects.html" class="btn-secondary">Voir nos réalisations</a>
               </div>
 
               <div class="trust-badges">
                 <div class="badge-item">
                   <i class="bi bi-building-check"></i>
                   <div class="badge-text">
-                    <span class="count">2019</span>
-                    <span class="label">Création de l’entreprise</span>
+                    <span class="count">2017</span>
+                    <span class="label">Création</span>
                   </div>
                 </div>
                 <div class="badge-item">
-                  <i class="bi bi-trophy"></i>
+                  <i class="bi bi-hammer"></i>
                   <div class="badge-text">
                     <span class="count">+300</span>
                     <span class="label">Chantiers livrés</span>
                   </div>
                 </div>
                 <div class="badge-item">
-                  <i class="bi bi-people"></i>
+                  <i class="bi bi-shield-check"></i>
                   <div class="badge-text">
-                    <span class="count">4.9/5</span>
-                    <span class="label">Satisfaction moyenne</span>
+                    <span class="count">Assuré</span>
+                    <span class="label">RC Pro & Décennale</span>
                   </div>
                 </div>
               </div>
+
+              <!-- Petit rappel “valeur ajoutée” (tiré de tes slides) -->
+              <div class="mt-3 small" style="opacity:.85;">
+                <i class="bi bi-check-circle-fill"></i>
+                Expertise technique • Qualité artisanale • Respect délais & budgets • Suivi personnalisé
+              </div>
+
             </div>
           </div>
 
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="hero-image">
-              <img src="assets/img/construction/showcase-3.webp" alt="Travaux de rénovation PARIS DECOR"
+              <img src="assets/img/construction/pexels-pixabay-209296.jpg" alt="Chantier ARI Bâtiment"
                 class="img-fluid">
               <div class="image-badge">
-                <span>NAF 43.34Z</span>
-                <p>Travaux de peinture & vitrerie</p>
+                <span>ARI Bâtiment</span>
+                <p>Second œuvre • Ossature bois • Finitions</p>
               </div>
             </div>
           </div>
@@ -164,72 +294,86 @@
         <div class="row align-items-center g-5">
           <div class="col-lg-6">
             <div class="about-content" data-aos="fade-right" data-aos-delay="200">
-              <h2>PARIS DECOR, votre partenaire rénovation</h2>
-              <p class="lead">Implantés à Épinay-sur-Seine, nous intervenons dans toute l’Île-de-France pour remettre à
-                neuf appartements, maisons, bureaux et commerces avec des finitions soignées et des délais tenus.</p>
-              <p>Nos équipes qualifiées maîtrisent la préparation des supports, l’application de peintures
-                haut-de-gamme, la vitrerie (remplacement casse, double vitrage), la pose de carrelage/faïence, de
-                parquets et l’aménagement intérieur (cloisons, faux plafonds, enduits, joints). Un interlocuteur unique
-                suit votre chantier du devis à la réception.</p>
+              <h2>Votre partenaire travaux : précis, réactif, fiable</h2>
+
+              <p class="lead">
+                Notre engagement : <strong>bâtir vos projets</strong> et <strong>dépasser vos attentes</strong>.
+                Nous combinons rigueur opérationnelle et excellence artisanale pour livrer un résultat au niveau
+                attendu.
+              </p>
+
+              <p>
+                Nous intervenons sur des projets de toutes envergures (résidentiel, tertiaire, hôtellerie),
+                en direct ou en renfort (prestation / sous-traitance).
+                Notre méthode : <strong>analyse</strong> → <strong>planification</strong> → <strong>exécution</strong> →
+                <strong>contrôle qualité</strong> → <strong>réception</strong>.
+              </p>
 
               <div class="achievement-boxes row g-4 mt-4">
                 <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
                   <div class="achievement-box">
                     <h3>100%</h3>
-                    <p>Chantiers suivis</p>
+                    <p>Suivi chantier</p>
                   </div>
                 </div>
                 <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
                   <div class="achievement-box">
                     <h3>+300</h3>
-                    <p>Projets livrés</p>
+                    <p>Projets</p>
                   </div>
                 </div>
                 <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="500">
                   <div class="achievement-box">
-                    <h3>4.9/5</h3>
-                    <p>Clients satisfaits</p>
+                    <h3>Pro</h3>
+                    <p>Matériaux & méthodes</p>
                   </div>
                 </div>
                 <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="600">
                   <div class="achievement-box">
-                    <h3>Équipe</h3>
-                    <p>3–5 salariés</p>
+                    <h3>France</h3>
+                    <p>Zone d’intervention</p>
                   </div>
                 </div>
               </div>
 
               <div class="certifications mt-5" data-aos="fade-up" data-aos-delay="700">
-                <h5>Assurances & engagements</h5>
+                <h5>Nos garanties </h5>
                 <div class="row g-3 align-items-center">
                   <div class="col-4 col-md-3">
-                    <img src="assets/img/construction/badge-4.webp" alt="Décennale" class="img-fluid">
+                    <img src="assets/img/construction/badge-4.webp" alt="Assurance décennale" class="img-fluid">
                   </div>
                   <div class="col-4 col-md-3">
-                    <img src="assets/img/construction/badge-3.webp" alt="Responsabilité civile pro" class="img-fluid">
+                    <img src="assets/img/construction/badge-3.webp" alt="Responsabilité civile professionnelle"
+                      class="img-fluid">
                   </div>
                   <div class="col-4 col-md-3">
-                    <img src="assets/img/construction/badge-5.webp" alt="Qualité matériaux" class="img-fluid">
+                    <img src="assets/img/construction/badge-5.webp" alt="Quittus et obligations à jour"
+                      class="img-fluid">
                   </div>
                 </div>
+                <p class="small mt-3 mb-0">
+                  <strong>Assurance Décennale (SMABTP)</strong> • <strong>RC Professionnelle (SMABTP)</strong> •
+                  <strong>Quitus légal</strong> (URSSAF, PRO BTP, CIBTP) — attestations disponibles avant démarrage.
+                </p>
               </div>
 
               <div class="cta-container mt-5" data-aos="fade-up" data-aos-delay="800">
-                <a href="about.html" class="btn btn-primary">En savoir plus</a>
+                <a href="about.html" class="btn btn-primary">Découvrir l’entreprise</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="about-image position-relative" data-aos="fade-left" data-aos-delay="200">
-              <img src="assets/img/construction/project-3.webp" alt="Équipe PARIS DECOR"
-                class="img-fluid main-image rounded">
+              <img src="assets/img/construction/pexels-jan-van-der-wolf-11680885-19432418.jpg"
+                alt="Chantier ARI Bâtiment" class="img-fluid main-image rounded">
               <div class="image-overlay">
-                <img src="assets/img/construction/project-7.webp" alt="Finitions peinture" class="img-fluid rounded">
+                <img src="assets/img/construction/pexels-magda-ehlers-pexels-2569872.jpg" alt="Finitions et détails"
+                  class="img-fluid rounded">
               </div>
               <div class="experience-badge" data-aos="zoom-in" data-aos-delay="500">
-                <span>43.34Z</span>
-                <p>Peinture & vitrerie</p>
+                <span>Second œuvre</span>
+                <p>Finitions & bardage</p>
               </div>
             </div>
           </div>
@@ -238,406 +382,359 @@
       </div>
     </section><!-- /About Section -->
 
-    <!-- Services Section -->
+    <!-- ======= Services Section ======= -->
     <section id="services" class="services section">
 
-      <div class="container section-title">
-        <h2>Nos services</h2>
-        <p>Des prestations complètes pour réussir vos travaux de rénovation intérieure et extérieure.</p>
-      </div>
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
+      <div class="container" data-aos="fade-up">
         <div class="row gy-4">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Rénovation hôtellerie -->
+          <div class="col-lg-4">
             <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-brush"></i>
-              </div>
-              <h3>Peinture intérieure & façades</h3>
-              <p>Préparation des supports, enduits, impression, finitions mates/satinées/laquées. Ravalement et
-                protection des façades.</p>
+              <div class="service-icon"><i class="bi bi-building-gear"></i></div>
+              <h3>Rénovation d’hôtellerie</h3>
+              <p>Chambres, couloirs, parties communes : phasage, protections, finitions et remise en propreté.</p>
               <div class="service-features">
-                <span><i class="bi bi-check-circle"></i> Marques pro & éco</span>
-                <span><i class="bi bi-check-circle"></i> Conseils teintes</span>
-                <span><i class="bi bi-check-circle"></i> Finitions soignées</span>
+                <span><i class="bi bi-check-circle"></i> Planning & phasage</span>
+                <span><i class="bi bi-check-circle"></i> Chantier propre</span>
+                <span><i class="bi bi-check-circle"></i> Finitions premium</span>
               </div>
-              <a href="quote.html" class="service-link">Demandez un devis gratuit <i class="bi bi-arrow-right"></i></a>
+              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <!-- Aménagement intérieur -->
+          <div class="col-lg-4">
             <div class="service-card featured">
               <div class="service-badge">Le plus demandé</div>
-              <div class="service-icon">
-                <i class="bi bi-app-indicator"></i>
-              </div>
-              <h3>Vitrerie & remplacement de vitrage</h3>
-              <p>Remplacement casse, double vitrage, joints, miroiterie et sécurisation rapide des ouvertures.</p>
+              <div class="service-icon"><i class="bi bi-layout-text-window-reverse"></i></div>
+              <h3>Aménagement intérieur</h3>
+              <p>Cloisons, doublages, plafonds, habillages, agencements et finitions soignées.</p>
               <div class="service-features">
-                <span><i class="bi bi-check-circle"></i> Intervention rapide</span>
-                <span><i class="bi bi-check-circle"></i> Isolation renforcée</span>
-                <span><i class="bi bi-check-circle"></i> Découpes sur mesure</span>
+                <span><i class="bi bi-check-circle"></i> Cloisons & plafonds</span>
+                <span><i class="bi bi-check-circle"></i> Menuiserie intérieure</span>
+                <span><i class="bi bi-check-circle"></i> Détails & retouches</span>
               </div>
-              <a href="quote.html" class="service-link">Demandez un devis gratuit <i class="bi bi-arrow-right"></i></a>
+              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <!-- Second œuvre -->
+          <div class="col-lg-4">
             <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-grid-3x3-gap"></i>
-              </div>
-              <h3>Carrelage, faïence & parquet</h3>
-              <p>Pose tous formats : salle de bains, cuisine, pièces de vie, terrasses. Parquets stratifiés/massifs,
-                plinthes & finitions.</p>
+              <div class="service-icon"><i class="bi bi-tools"></i></div>
+              <h3>Second œuvre & finitions</h3>
+              <p>Préparation supports, pose, reprises, peinture, finitions : un rendu net et durable.</p>
               <div class="service-features">
-                <span><i class="bi bi-check-circle"></i> Nivelage & calepinage</span>
-                <span><i class="bi bi-check-circle"></i> Étanchéité (SPEC)</span>
-                <span><i class="bi bi-check-circle"></i> Rattrapage de sols</span>
+                <span><i class="bi bi-check-circle"></i> Préparation</span>
+                <span><i class="bi bi-check-circle"></i> Exécution</span>
+                <span><i class="bi bi-check-circle"></i> Contrôle qualité</span>
               </div>
-              <a href="quote.html" class="service-link">Demandez un devis gratuit <i class="bi bi-arrow-right"></i></a>
+              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <!-- Charpente MOB -->
+          <div class="col-lg-4">
             <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-hammer"></i>
-              </div>
-              <h3>Charpente & ossature bois</h3>
-              <p>Conception et montage de charpentes traditionnelles ou industrielles, extensions en ossature bois,
-                bardage et préparations de couverture (chevrons, liteaux, écran sous-toiture).</p>
-
+              <div class="service-icon"><i class="bi bi-house-gear"></i></div>
+              <h3>Charpente & ossature bois (MOB)</h3>
+              <p>Montage, contreventement, fixations, renforts et traitement bois — précision et sécurité.</p>
               <div class="service-features">
-                <span><i class="bi bi-check-circle"></i> Charpente traditionnelle/fermettes</span>
-                <span><i class="bi bi-check-circle"></i> Ossature bois & bardage</span>
-                <span><i class="bi bi-check-circle"></i> Renforts, traitement & étanchéité</span>
+                <span><i class="bi bi-check-circle"></i> Charpente</span>
+                <span><i class="bi bi-check-circle"></i> Ossature bois</span>
+                <span><i class="bi bi-check-circle"></i> Traitement & durabilité</span>
               </div>
-
-              <a href="quote.html" class="service-link">Demander un devis charpente <i
-                  class="bi bi-arrow-right"></i></a>
+              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-image-block">
-              <img src="assets/img/construction/project-1.webp" alt="Services de rénovation" class="img-fluid">
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-list-block">
-              <h3>Prestations complémentaires</h3>
-              <p>Pour un chantier clé en main, nous gérons également les lots techniques connexes.</p>
-
-              <div class="service-list">
-                <div class="service-list-item" data-aos="fade-up" data-aos-delay="100">
-                  <div class="service-list-icon">
-                    <i class="bi bi-rulers"></i>
-                  </div>
-                  <div class="service-list-content">
-                    <h4>Cloisons, faux plafonds & isolation</h4>
-                    <p>Placo, rails, laine minérale, traitement acoustique et bandes à joint impeccables.</p>
-                  </div>
-                </div>
-
-                <div class="service-list-item" data-aos="fade-up" data-aos-delay="200">
-                  <div class="service-list-icon">
-                    <i class="bi bi-calendar-check"></i>
-                  </div>
-                  <div class="service-list-content">
-                    <h4>Pilotage de chantier</h4>
-                    <p>Planning, coordination corps d’état, contrôle qualité et livrable photo à la réception.</p>
-                  </div>
-                </div>
-
-                <div class="service-list-item" data-aos="fade-up" data-aos-delay="300">
-                  <div class="service-list-icon">
-                    <i class="bi bi-tools"></i>
-                  </div>
-                  <div class="service-list-content">
-                    <h4>Petites maçonneries & réparations</h4>
-                    <p>Ouvertures, reprises d’enduits, seuils, rebouchage, ratissage et remise à niveau.</p>
-                  </div>
-                </div>
-                <div class="service-list-item" data-aos="fade-up" data-aos-delay="300">
-                  <div class="service-list-icon">
-                    <i class="bi bi-hammer"></i>
-                  </div>
-                  <div class="service-list-content">
-                    <h4>Petites charpentes & réparations bois</h4>
-                    <p>Renforts de charpente, remplacement de pannes/solives, redressage et étaiement, reprises de
-                      liteaux
-                      et chevrons, traitement fongicide/insecticide, scellements et finitions étanches.</p>
-                  </div>
-                </div>
-
+          <!-- Bardage -->
+          <div class="col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-layers"></i></div>
+              <h3>Bardage de façade</h3>
+              <p>Bardage bois et panneaux : calepinage, rives, détails, finitions et protection du bâti.</p>
+              <div class="service-features">
+                <span><i class="bi bi-check-circle"></i> Bardage bois</span>
+                <span><i class="bi bi-check-circle"></i> Panneaux</span>
+                <span><i class="bi bi-check-circle"></i> Finitions façade</span>
               </div>
+              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
-        </div>
 
-        <div class="cta-container text-center mt-5" data-aos="fade-up" data-aos-delay="300">
-          <h3>Un projet de rénovation ?</h3>
-          <p>Recevez votre devis détaillé gratuitement sous 24h.</p>
-          <a href="quote.html" class="btn btn-cta">Demander un devis</a>
+          <!-- Couverture / Étanchéité -->
+          <div class="col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-shield-check"></i></div>
+              <h3>Raccords & étanchéité</h3>
+              <p>Écrans, raccords, points singuliers : rigueur d’exécution pour limiter les risques d’infiltration.</p>
+              <div class="service-features">
+                <span><i class="bi bi-check-circle"></i> Points singuliers</span>
+                <span><i class="bi bi-check-circle"></i> Étanchéité</span>
+                <span><i class="bi bi-check-circle"></i> Contrôles</span>
+              </div>
+              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
         </div>
 
       </div>
-    </section><!-- /Services Section -->
+    </section>
+
+    <!-- ======= Value Added Section (depuis tes slides) ======= -->
+    <section id="value-added" class="section light-background">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-title">
+          <h2>Notre valeur ajoutée</h2>
+          <p>Partenaire de votre réussite : méthode, transparence et finitions irréprochables.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="p-4 rounded-3 bg-white shadow-sm h-100">
+              <h3 class="h5 mb-3">Pourquoi nous choisir ?</h3>
+              <ul class="mb-0">
+                <li><strong>Expertise technique :</strong> maîtrise des normes et techniques du second œuvre.</li>
+                <li><strong>Qualité artisanale :</strong> soin du détail, rendu propre et régulier.</li>
+                <li><strong>Délais & budgets :</strong> planification réaliste et suivi clair.</li>
+                <li><strong>Partenariat de confiance :</strong> transparence, réactivité, communication simple.</li>
+                <li><strong>Sur-mesure :</strong> solutions adaptées aux contraintes du chantier.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="250">
+            <div class="p-4 rounded-3 bg-white shadow-sm h-100">
+              <h3 class="h5 mb-3">Notre processus qualité</h3>
+              <ol class="mb-0 ps-3">
+                <li><strong>Étude & conception :</strong> analyse approfondie, propositions détaillées.</li>
+                <li><strong>Planification & coordination :</strong> ordonnancement des tâches, gestion des équipes.</li>
+                <li><strong>Exécution & suivi :</strong> contrôles qualité à chaque étape.</li>
+                <li><strong>Réception & validation :</strong> présentation au client, levée des réserves.</li>
+                <li><strong>Garantie & service :</strong> support post-projet et activation des assurances.</li>
+              </ol>
+              <p class="small text-muted mt-3 mb-0">Objectif : livrer conforme, propre, et durable.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Partenaires (vu sur tes slides) -->
+        <div class="mt-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="p-4 rounded-3 dark-background">
+            <div class="text-center mb-3">
+              <strong>Ils nous font confiance </strong>
+            </div>
+            <div class="partners-strip">
+
+              <span class="partner-chip"><img src="assets/img/construction/logo_Mathis_construction-CMJN.jpg"
+                  alt="Mathis"></span>
+              <span class="partner-chip"><img src="assets/img/construction/logo-ossabois.svg" alt="Ossabois"></span>
+              <span class="partner-chip"><img src="assets/img/construction/Spie_Batignolles_Logo.svg.png"
+                  alt="Spie Batignolles"><span></span></span>
+              <span class="partner-chip"><img src="assets/img/construction/SANOCLIMAT-Alfortville-001.jpg"
+                  alt="Sano Climat"><span></span></span>                 
+                  <span class="partner-chip"><img src="assets/img/construction/logo-faste.png"
+                      alt="FASTE"><span></span></span>
+                      <span class="partner-chip"><img src="assets/img/construction/Burger_King_2020.svg.png"
+                      alt="Burger King"><span></span></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- /Value Added Section -->
 
     <!-- Projects Section -->
     <section id="projects" class="projects section">
 
       <div class="container section-title">
         <h2>Réalisations</h2>
-        <p>Quelques chantiers représentatifs livrés par nos équipes en Île-de-France.</p>
+        <p>Une sélection de chantiers représentatifs : hôtellerie, tertiaire, ossature bois, aménagement & finitions.
+        </p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="projects-grid">
 
-          <!-- Peinture -->
+          <!-- PROJET 1 -->
           <div class="project-item" data-aos="zoom-in" data-aos-delay="100">
-            <div class="project-content">
-              <div class="project-header">
-                <span class="project-category">Peinture</span>
-                <span class="project-status completed">Livré</span>
-              </div>
-              <h3 class="project-title">Appartement Haussmann – Paris 17</h3>
-              <div class="project-details">
-                <div class="project-info">
-                  <p>Réfection complète : préparation des supports, enduits, sous-couches A+, finitions velours murs &
-                    plafonds, boiseries laquées.</p>
-                  <div class="project-specs">
-                    <span class="spec-item"><i class="bi bi-rulers"></i> 85 m²</span>
-                    <span class="spec-item"><i class="bi bi-calendar-check"></i> 2 semaines</span>
-                  </div>
-                </div>
-                <div class="project-location">
-                  <i class="bi bi-geo-alt-fill"></i>
-                  <span>Paris (17e)</span>
-                </div>
-              </div>
-              <a href="quote.html" class="project-link">
-                <span>Demander un devis</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-            <div class="project-visual">
-              <img src="assets/img/construction/project-2.webp" alt="Appartement Haussmann Paris 17 - Peinture"
-                class="img-fluid">
-              <div class="project-badge"><i class="bi bi-palette"></i></div>
-            </div>
-          </div><!-- End Project Item -->
-
-          <!-- Carrelage -->
-          <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
-            <div class="project-content">
-              <div class="project-header">
-                <span class="project-category">Carrelage</span>
-                <span class="project-status in-progress">En cours</span>
-              </div>
-              <h3 class="project-title">Salle de bain – Eaubonne</h3>
-              <div class="project-details">
-                <div class="project-info">
-                  <p>Dépose ancien carrelage, étanchéité (SPEC), pose grès cérame 60×60, faïence douche & habillages.
-                  </p>
-                  <div class="project-specs">
-                    <span class="spec-item"><i class="bi bi-droplet-half"></i> Zone humide</span>
-                    <span class="spec-item"><i class="bi bi-calendar-check"></i> 10 jours</span>
-                  </div>
-                </div>
-                <div class="project-location">
-                  <i class="bi bi-geo-alt-fill"></i>
-                  <span>Val-d’Oise</span>
-                </div>
-              </div>
-              <a href="quote.html" class="project-link">
-                <span>Demander un devis</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-            <div class="project-visual">
-              <img src="assets/img/construction/project-6.webp" alt="Salle de bain carrelage Eaubonne"
-                class="img-fluid">
-              <div class="project-badge"><i class="bi bi-grid-3x3-gap"></i></div>
-            </div>
-          </div><!-- End Project Item -->
-          <!-- Charpente / Ossature bois -->
-          <div class="project-item" data-aos="zoom-in" data-aos-delay="120">
-            <div class="project-content">
-              <div class="project-header">
-                <span class="project-category">Charpente / Ossature bois</span>
-                <span class="project-status in-progress">En cours</span>
-              </div>
-
-              <h3 class="project-title">Extension ossature bois – Villennes-sur-Seine</h3>
-
-              <div class="project-details">
-                <div class="project-info">
-                  <p>Montage de l’ossature bois, pose des poutres &amp; pannes, chevrons/liteaux, écran sous-toiture et
-                    préparation de la couverture. Étanchéité à l’air soignée et fixations structurelles contrôlées.</p>
-                  <div class="project-specs">
-                    <span class="spec-item"><i class="bi bi-rulers"></i> ≈ 110&nbsp;m²</span>
-                    <span class="spec-item"><i class="bi bi-calendar-check"></i> 3&nbsp;semaines</span>
-                  </div>
-                </div>
-                <div class="project-location">
-                  <i class="bi bi-geo-alt-fill"></i>
-                  <span>Villennes-sur-Seine (78)</span>
-                </div>
-              </div>
-
-              <a href="quote.html" class="project-link">
-                <span>Demander un devis</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-
-            <div class="project-visual">
-              <img src="assets/img/construction/project-charpente.webp"
-                alt="Extension ossature bois à Villennes-sur-Seine - Charpente" class="img-fluid">
-              <div class="project-badge"><i class="bi bi-hammer"></i></div>
-            </div>
-          </div>
-          <!-- End Project Item -->
-
-          <!-- Vitrerie -->
-          <div class="project-item" data-aos="zoom-in" data-aos-delay="300">
-            <div class="project-content">
-              <div class="project-header">
-                <span class="project-category">Vitrerie</span>
-                <span class="project-status completed">Livré</span>
-              </div>
-              <h3 class="project-title">Remplacement double vitrage – Saint-Gratien</h3>
-              <div class="project-details">
-                <div class="project-info">
-                  <p>Prise de cotes, fourniture & pose de vitrages isolants, finitions mastic et réglages ouvrants.</p>
-                  <div class="project-specs">
-                    <span class="spec-item"><i class="bi bi-wind"></i> Isolation renforcée</span>
-                    <span class="spec-item"><i class="bi bi-calendar-check"></i> 2 jours</span>
-                  </div>
-                </div>
-                <div class="project-location">
-                  <i class="bi bi-geo-alt-fill"></i>
-                  <span>Saint-Gratien (95210)</span>
-                </div>
-              </div>
-              <a href="quote.html" class="project-link">
-                <span>Demander un devis</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-            <div class="project-visual">
-              <img src="assets/img/construction/project-10.webp" alt="Vitrerie double vitrage Saint-Gratien"
-                class="img-fluid">
-              <div class="project-badge"><i class="bi bi-window"></i></div>
-            </div>
-          </div><!-- End Project Item -->
-
-          <!-- Parquet -->
-          <div class="project-item" data-aos="zoom-in" data-aos-delay="100">
-            <div class="project-content">
-              <div class="project-header">
-                <span class="project-category">Parquet</span>
-                <span class="project-status completed">Livré</span>
-              </div>
-              <h3 class="project-title">Pose parquet flottant – Enghien-les-Bains</h3>
-              <div class="project-details">
-                <div class="project-info">
-                  <p>Préparation du support, sous-couche acoustique, pose clipsée, plinthes MDF et finitions seuils.</p>
-                  <div class="project-specs">
-                    <span class="spec-item"><i class="bi bi-rulers"></i> 45 m²</span>
-                    <span class="spec-item"><i class="bi bi-calendar-check"></i> 3 jours</span>
-                  </div>
-                </div>
-                <div class="project-location">
-                  <i class="bi bi-geo-alt-fill"></i>
-                  <span>Enghien-les-Bains</span>
-                </div>
-              </div>
-              <a href="quote.html" class="project-link">
-                <span>Demander un devis</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-            <div class="project-visual">
-              <img src="assets/img/construction/project-4.webp" alt="Pose parquet Enghien-les-Bains" class="img-fluid">
-              <div class="project-badge"><i class="bi bi-columns-gap"></i></div>
-            </div>
-          </div><!-- End Project Item -->
-
-          <!-- Petites rénovations -->
-          <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
             <div class="project-content">
               <div class="project-header">
                 <span class="project-category">Rénovation</span>
-                <span class="project-status planning">Étude</span>
+                <span class="project-status completed">Projet terminé</span>
               </div>
-              <h3 class="project-title">Studio – rafraîchissement complet</h3>
+              <h3 class="project-title">Hôtel Édouard 7 — Paris</h3>
               <div class="project-details">
                 <div class="project-info">
-                  <p>Reprise murs/Placo, peinture, rénovation SDB, remplacement vitrage simple par double vitrage.</p>
+                  <p>Rénovation intérieure : reprises supports, peinture, finitions, contrôle qualité et remise en
+                    propreté.</p>
                   <div class="project-specs">
-                    <span class="spec-item"><i class="bi bi-hammer"></i> Multi-lots</span>
-                    <span class="spec-item"><i class="bi bi-calendar-check"></i> 4 semaines (estim.)</span>
+                    <span class="spec-item"><i class="bi bi-check-circle"></i> Second œuvre & finitions</span>
+                    <span class="spec-item"><i class="bi bi-people"></i> Partenaire : Sano Climat</span>
                   </div>
                 </div>
                 <div class="project-location">
                   <i class="bi bi-geo-alt-fill"></i>
-                  <span>Île-de-France</span>
+                  <span>Paris</span>
                 </div>
               </div>
-              <a href="quote.html" class="project-link">
-                <span>Demander un devis</span>
+              <a href="project-details-paris.html" class="project-link">
+                <span>Voir le projet</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
             <div class="project-visual">
-              <img src="assets/img/construction/project-8.webp" alt="Rénovation studio Île-de-France" class="img-fluid">
-              <div class="project-badge"><i class="bi bi-lightning"></i></div>
+              <img src="assets/img/construction/showcase-3.webp" alt="Hôtel Édouard 7 - ARI Bâtiment" class="img-fluid">
+              <div class="project-badge"><i class="bi bi-building"></i></div>
             </div>
           </div><!-- End Project Item -->
 
-          <!-- Local pro peinture -->
-          <div class="project-item" data-aos="zoom-in" data-aos-delay="300">
+          <!-- PROJET 2 -->
+          <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
             <div class="project-content">
               <div class="project-header">
-                <span class="project-category">Peinture</span>
-                <span class="project-status completed">Livré</span>
+                <span class="project-category">Ossature bois / charpente</span>
+                <span class="project-status in-progress">Travaux en cours</span>
               </div>
-              <h3 class="project-title">Bureaux PME – Saint-Ouen</h3>
+
+              <h3 class="project-title">Casernes Beaumont — Tours</h3>
+
               <div class="project-details">
                 <div class="project-info">
-                  <p>Peinture murs/plafonds, marquage zones, reprises d’enduits et finitions lessivables en zones de
-                    passage.</p>
+                  <p>Structure ossature bois (FOB), charpente, bardage, finitions aluminium et rigueur sur les raccords
+                    d’étanchéité.</p>
                   <div class="project-specs">
-                    <span class="spec-item"><i class="bi bi-rulers"></i> 220 m²</span>
-                    <span class="spec-item"><i class="bi bi-calendar-check"></i> 8 jours</span>
+                    <span class="spec-item"><i class="bi bi-people"></i> Partenaire : Ossabois</span>
+                    <span class="spec-item"><i class="bi bi-calendar-check"></i> Phasage maîtrisé</span>
                   </div>
                 </div>
                 <div class="project-location">
                   <i class="bi bi-geo-alt-fill"></i>
-                  <span>Saint-Ouen</span>
+                  <span>Tours</span>
                 </div>
               </div>
-              <a href="quote.html" class="project-link">
-                <span>Demander un devis</span>
+
+              <a href="project-details-tours.html" class="project-link">
+                <span>Voir le projet</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="project-visual">
+              <img src="assets/img/construction/project-5.webp" alt="Casernes Beaumont - ARI Bâtiment"
+                class="img-fluid">
+              <div class="project-badge"><i class="bi bi-hammer"></i></div>
+            </div>
+          </div><!-- End Project Item -->
+
+          <!-- PROJET 3 (ajout : Arboretum) -->
+          <div class="project-item" data-aos="zoom-in" data-aos-delay="250">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-category">Tertiaire</span>
+                <span class="project-status completed">Projet terminé</span>
+              </div>
+              <h3 class="project-title">Arboretum — Nanterre</h3>
+              <div class="project-details">
+                <div class="project-info">
+                  <p>Faux plafonds techniques et finitions bois sur mesure (bureaux & logements).</p>
+                  <div class="project-specs">
+                    <span class="spec-item"><i class="bi bi-people"></i> Partenaire : Mathis</span>
+                    <span class="spec-item"><i class="bi bi-check2-square"></i> Rendu premium</span>
+                  </div>
+                </div>
+                <div class="project-location">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <span>Nanterre</span>
+                </div>
+              </div>
+              <a href="project-details-nanterre.html" class="project-link">
+                <span>Voir le projet</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
             <div class="project-visual">
-              <img src="assets/img/construction/project-12.webp" alt="Peinture bureaux Saint-Ouen" class="img-fluid">
-              <div class="project-badge"><i class="bi bi-briefcase"></i></div>
+              <img src="assets/img/construction/nanterre-arboretum-3.webp" alt="Arboretum Nanterre - ARI Bâtiment"
+                class="img-fluid">
+              <div class="project-badge"><i class="bi bi-layers"></i></div>
             </div>
           </div><!-- End Project Item -->
+          <!-- PROJET (ajout : OIKOS) -->
+   <div class="project-item" data-aos="zoom-in" data-aos-delay="300">
+  <div class="project-content">
+    <div class="project-header">
+      <span class="project-category">Modulaire bois</span>
+      <span class="project-status in-progress">Travaux en cours</span>
+    </div>
+    <h3 class="project-title">OIKOS — Wiltz (Luxembourg)</h3>
+    <div class="project-details">
+      <div class="project-info">
+        <p>Aménagement intérieur de modules 3D : second œuvre sur structures modulaires bois, menuiserie de précision.</p>
+        <div class="project-specs">
+          <span class="spec-item"><i class="bi bi-people"></i> Partenaire : Ossabois</span>
+          <span class="spec-item"><i class="bi bi-tools"></i> Second œuvre & finitions</span>
+        </div>
+      </div>
+      <div class="project-location">
+        <i class="bi bi-geo-alt-fill"></i>
+        <span>Wiltz</span>
+      </div>
+    </div>
+    <a href="project-details-wiltz.html" class="project-link">
+      <span>Voir le projet</span>
+      <i class="bi bi-arrow-right"></i>
+    </a>
+  </div>
+  <div class="project-visual">
+    <img src="assets/img/construction/project-wiltz.png" alt="OIKOS Wiltz Luxembourg - ARI Bâtiment" class="img-fluid">
+    <div class="project-badge"><i class="bi bi-houses"></i></div>
+  </div>
+</div><!-- End Project Item -->
 
+        </div>
+
+        <!-- Autres réalisations (slide “Nos autres réalisations”) -->
+        <div class="mt-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-4 rounded-3 light-background">
+            <h3 class="h4 mb-3">Nos autres réalisations</h3>
+            <div class="row g-3">
+              <div class="col-md-6 col-lg-3">
+                <div class="p-3 rounded-3 bg-white shadow-sm h-100">
+                  <div class="fw-bold">Versailles / Pion</div>
+                  <div class="small text-muted">Partenaire : Mathis</div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="p-3 rounded-3 bg-white shadow-sm h-100">
+                  <div class="fw-bold">Anatole France / Saint-Ouen-sur-Seine</div>
+                  <div class="small text-muted">Partenaire : Spie Batignolles</div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="p-3 rounded-3 bg-white shadow-sm h-100">
+                  <div class="fw-bold">Asnières</div>
+                  <div class="small text-muted">Partenaire : Mathis</div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="p-3 rounded-3 bg-white shadow-sm h-100">
+                  <div class="fw-bold">Burger King</div>
+                  <div class="small text-muted">Partenaire : FASTE</div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="p-3 rounded-3 bg-white shadow-sm h-100">
+                  <div class="fw-bold">Projet MonSenior</div>
+                  <div class="small text-muted">Partenaire : Ossabois</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -671,8 +768,8 @@
                   <div class="quote-icon"><i class="bi bi-quote"></i></div>
                 </div>
                 <div class="testimonial-body">
-                  <p>« Équipe sérieuse et réactive. Les finitions peinture sont impeccables et la pose du carrelage
-                    parfaite. Devis clair, délais respectés. »</p>
+                  <p>« Devis clair, équipe sérieuse, finitions propres. Bonne communication du début à la réception. »
+                  </p>
                 </div>
                 <div class="testimonial-footer">
                   <div class="author-info">
@@ -680,7 +777,7 @@
                     <div class="author-details">
                       <h4>Julie M.</h4>
                       <span class="role">Particulier</span>
-                      <span class="company">Paris 17e</span>
+                      <span class="company">Toute la France</span>
                     </div>
                   </div>
                 </div>
@@ -697,16 +794,16 @@
                   <div class="quote-icon"><i class="bi bi-quote"></i></div>
                 </div>
                 <div class="testimonial-body">
-                  <p>« Intervention vitrerie en urgence après casse : chantier sécurisé le jour même et vitrage remplacé
-                    dans les temps. Je recommande. »</p>
+                  <p>« Chantier organisé et sécurisé. Les délais annoncés ont été respectés, rendu final impeccable. »
+                  </p>
                 </div>
                 <div class="testimonial-footer">
                   <div class="author-info">
                     <img src="assets/img/person/person-m-14.webp" alt="Auteur" class="author-avatar">
                     <div class="author-details">
                       <h4>Karim A.</h4>
-                      <span class="role">Gérant de boutique</span>
-                      <span class="company">Montreuil</span>
+                      <span class="role">Professionnel</span>
+                      <span class="company">93</span>
                     </div>
                   </div>
                 </div>
@@ -723,16 +820,15 @@
                   <div class="quote-icon"><i class="bi bi-quote"></i></div>
                 </div>
                 <div class="testimonial-body">
-                  <p>« Bonne coordination, communication fluide et respect du budget. Les parties communes de l’immeuble
-                    ont été transformées. »</p>
+                  <p>« Rigueur, transparence, et un vrai contrôle qualité. Très bonne coordination multi-lots. »</p>
                 </div>
                 <div class="testimonial-footer">
                   <div class="author-info">
                     <img src="assets/img/person/person-f-11.webp" alt="Auteur" class="author-avatar">
                     <div class="author-details">
-                      <h4>Sophie L</h4>
+                      <h4>Sophie L.</h4>
                       <span class="role">Gestionnaire</span>
-                      <span class="company">Paris</span>
+                      <span class="company">France</span>
                     </div>
                   </div>
                 </div>
@@ -754,20 +850,22 @@
     <!-- Certifications Section -->
     <section id="certifications" class="certifications section">
 
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row align-items-center mb-5 content">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-            <h2>Documents d’entreprise</h2>
-            <p>SIREN : 849 646 401 — TVA intracom : FR84 849 646 401 — Code NAF : 43.34Z. Attestations d’assurance RC
-              Pro et Décennale disponibles sur demande avant démarrage des travaux.</p>
+            <h2>Documents & assurances</h2>
+            <p>
+              SIREN : 849 646 401 — TVA intracom : FR84 849 646 401 — Code NAF : 43.34Z.<br>
+              <strong>Assurance RC Pro & Décennale</strong> (SMABTP) et documents administratifs disponibles sur demande
+              avant démarrage des travaux.
+            </p>
           </div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="badge-highlight">
               <img src="assets/img/construction/badge-5.webp" alt="Qualité" class="img-fluid">
               <div class="badge-content">
                 <h4>Engagement qualité</h4>
-                <p>Matériaux professionnels, propreté de chantier et contrôle final systématique.</p>
+                <p>Matériaux professionnels, propreté de chantier, contrôles et réception cadrée.</p>
               </div>
             </div>
           </div>
@@ -780,7 +878,7 @@
             <div class="cert-details">
               <h5>Matériaux certifiés</h5>
               <span class="cert-category">Qualité & durabilité</span>
-              <p>Peintures à faible COV, colles et mortiers conformes aux normes françaises.</p>
+              <p>Choix adaptés aux supports et contraintes chantier.</p>
             </div>
           </div>
 
@@ -789,25 +887,25 @@
             <div class="cert-details">
               <h5>Sécurité de chantier</h5>
               <span class="cert-category">Procédures</span>
-              <p>Protection des zones, balisage, EPI et respect des parties communes.</p>
+              <p>Protection des zones, EPI, respect des parties communes.</p>
             </div>
           </div>
 
           <div class="cert-card" data-aos="flip-left" data-aos-delay="300">
             <div class="cert-icon"><img src="assets/img/construction/badge-3.webp" alt="" class="img-fluid"></div>
             <div class="cert-details">
-              <h5>Conformité légale</h5>
-              <span class="cert-category">Entreprise déclarée</span>
-              <p>Documents à jour, devis détaillés et facturation transparente.</p>
+              <h5>Transparence</h5>
+              <span class="cert-category">Devis & suivi</span>
+              <p>Postes clairs, quantités, délais et points d’avancement.</p>
             </div>
           </div>
 
           <div class="cert-card" data-aos="flip-left" data-aos-delay="400">
             <div class="cert-icon"><img src="assets/img/construction/badge-4.webp" alt="" class="img-fluid"></div>
             <div class="cert-details">
-              <h5>Éco-responsable</h5>
-              <span class="cert-category">Tri & recyclage</span>
-              <p>Évacuation contrôlée des déchets et réduction des nuisances.</p>
+              <h5>Tri & évacuation</h5>
+              <span class="cert-category">Chantier maîtrisé</span>
+              <p>Évacuation contrôlée et réduction des nuisances.</p>
             </div>
           </div>
 
@@ -816,7 +914,7 @@
             <div class="cert-details">
               <h5>Assurances</h5>
               <span class="cert-category">RC Pro & Décennale</span>
-              <p>Couverture adaptée aux travaux de peinture, vitrerie et revêtements.</p>
+              <p>Couverture adaptée selon le périmètre des travaux.</p>
             </div>
           </div>
 
@@ -825,7 +923,7 @@
             <div class="cert-details">
               <h5>Équipe qualifiée</h5>
               <span class="cert-category">Savoir-faire</span>
-              <p>Compagnons expérimentés et encadrement de proximité.</p>
+              <p>Compagnons expérimentés, encadrement de proximité.</p>
             </div>
           </div>
 
@@ -836,22 +934,22 @@
             <div class="col-lg-3 col-sm-6">
               <div class="achievement-item">
                 <i class="bi bi-award"></i>
-                <h3>+15</h3>
-                <p>Récompenses locales</p>
+                <h3>15+</h3>
+                <p>Années d’expérience</p>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
               <div class="achievement-item">
                 <i class="bi bi-shield-check"></i>
-                <h3>0</h3>
-                <p>Incident majeur</p>
+                <h3>Assuré</h3>
+                <p>RC Pro & Décennale</p>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
               <div class="achievement-item">
                 <i class="bi bi-clock-history"></i>
-                <h3>Rapide</h3>
-                <p>Délais maîtrisés</p>
+                <h3>Réaliste</h3>
+                <p>Délais & organisation</p>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -870,8 +968,8 @@
     <!-- Team / Notre approche -->
     <section id="team" class="team section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Notre équipe</h2>
-        <p>Des professionnels engagés pour des chantiers propres et des finitions durables.</p>
+        <h2>Notre approche</h2>
+        <p>Précision, rigueur, accompagnement et service d’excellence — du devis à la réception.</p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -885,12 +983,10 @@
                 <h3 class="h5 mb-0">Nos engagements</h3>
               </div>
               <ul class="list-unstyled mb-0 small">
-                <li class="d-flex mb-2"><i class="bi bi-check2-circle me-2"></i>Protection complète des zones de travail
-                </li>
-                <li class="d-flex mb-2"><i class="bi bi-check2-circle me-2"></i>Respect des délais annoncés</li>
-                <li class="d-flex mb-2"><i class="bi bi-check2-circle me-2"></i>Matériaux adaptés (peintures A+, joints
-                  hydro, etc.)</li>
-                <li class="d-flex"><i class="bi bi-check2-circle me-2"></i>Chantier propre & communication claire</li>
+                <li class="d-flex mb-2"><i class="bi bi-check2-circle me-2"></i>Rigueur sur chaque étape</li>
+                <li class="d-flex mb-2"><i class="bi bi-check2-circle me-2"></i>Soutien permanent et disponibilité</li>
+                <li class="d-flex mb-2"><i class="bi bi-check2-circle me-2"></i>Planning réaliste & coordination</li>
+                <li class="d-flex"><i class="bi bi-check2-circle me-2"></i>Chantier propre & rendu final net</li>
               </ul>
             </div>
           </div>
@@ -900,13 +996,13 @@
             <div class="h-100 p-4 rounded-3 shadow-sm">
               <div class="d-flex align-items-center mb-3">
                 <i class="bi bi-diagram-3 fs-3 me-2"></i>
-                <h3 class="h5 mb-0">Notre méthode</h3>
+                <h3 class="h5 mb-0">Méthode</h3>
               </div>
               <ol class="mb-0 small ps-3">
-                <li class="mb-2"><strong>Visite & conseils :</strong> prise de mesures, choix techniques.</li>
+                <li class="mb-2"><strong>Visite & conseils :</strong> besoins, mesures, options techniques.</li>
                 <li class="mb-2"><strong>Devis détaillé :</strong> postes, quantités, délais.</li>
-                <li class="mb-2"><strong>Préparation :</strong> protection, reprises de supports.</li>
-                <li class="mb-2"><strong>Réalisation :</strong> peinture, vitrerie, carrelage, parquet.</li>
+                <li class="mb-2"><strong>Préparation :</strong> protections, organisation, supports.</li>
+                <li class="mb-2"><strong>Réalisation :</strong> exécution, coordination, finitions.</li>
                 <li><strong>Réception :</strong> contrôle qualité & remise en propreté.</li>
               </ol>
             </div>
@@ -917,25 +1013,25 @@
             <div class="h-100 p-4 rounded-3 shadow-sm dark-border">
               <div class="d-flex align-items-center mb-3">
                 <i class="bi bi-award fs-3 me-2"></i>
-                <h3 class="h5 mb-0">Garanties & assurances</h3>
+                <h3 class="h5 mb-0">Garanties</h3>
               </div>
               <div class="row text-center g-3">
                 <div class="col-6">
                   <div class="p-3 rounded border">
-                    <div class="fw-bold">Assuré</div>
-                    <small>Responsabilité civile pro</small>
+                    <div class="fw-bold">RC Pro</div>
+                    <small>Assurance à jour</small>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="p-3 rounded border">
-                    <div class="fw-bold">SAV 12 mois</div>
-                    <small>Corrections mineures</small>
+                    <div class="fw-bold">Décennale</div>
+                    <small>Selon activité</small>
                   </div>
                 </div>
                 <div class="col-12">
                   <div class="p-3 rounded border">
-                    <div class="fw-bold">Devis clair</div>
-                    <small>Aucun frais caché</small>
+                    <div class="fw-bold">Quitus légal</div>
+                    <small>URSSAF • PRO BTP • CIBTP</small>
                   </div>
                 </div>
               </div>
@@ -944,31 +1040,62 @@
 
         </div><!-- /row -->
 
-        <!-- Chiffres clés -->
-        <div class="row gy-4 mt-4" data-aos="fade-up" data-aos-delay="150">
-          <div class="col-6 col-md-3 text-center">
-            <div class="display-6 fw-bold">15+</div>
-            <div class="small text-muted">années d’expérience</div>
-          </div>
-          <div class="col-6 col-md-3 text-center">
-            <div class="display-6 fw-bold">100%</div>
-            <div class="small text-muted">chantiers livrés dans les temps*</div>
-          </div>
-          <div class="col-6 col-md-3 text-center">
-            <div class="display-6 fw-bold">A+</div>
-            <div class="small text-muted">peintures faibles émissions</div>
-          </div>
-          <div class="col-6 col-md-3 text-center">
-            <div class="display-6 fw-bold">ÎdF</div>
-            <div class="small text-muted">Interventions en Île-de-France</div>
-          </div>
-        </div>
-        <p class="text-center mt-2 mb-0 small text-muted">*hors aléas techniques indépendants de notre volonté.</p>
-
       </div><!-- /container -->
     </section>
     <!-- /Team / Notre approche -->
 
+    <!-- Contact + QR (slide “Contactez-Nous”) -->
+    <section id="social-qr" class="section light-background">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-title">
+          <h2>Contactez-nous</h2>
+          <p>Un besoin ? Une prestation ? Une sous-traitance ? On vous répond rapidement.</p>
+        </div>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="p-4 bg-white rounded-3 shadow-sm">
+              <h3 class="h5 mb-3">Coordonnées</h3>
+              <p class="mb-2"><strong>Téléphone :</strong><br>
+                <a href="tel:+33659946088">06 59 94 60 88</a><br>
+                <a href="tel:+33748659544">07 48 65 95 44</a>
+              </p>
+              <p class="mb-2"><strong>Email :</strong><br>
+                <a href="mailto:contact@ari-batiment.com">contact@ari-batiment.com</a>
+              </p>
+              <p class="mb-0"><strong>Adresse :</strong><br>
+                2 Rue Ribot, 93700 Drancy, France
+              </p>
+
+              <hr class="my-4">
+
+              <div class="d-flex gap-2">
+                <a class="btn btn-outline-dark" href="https://www.linkedin.com/company/agencement-renovation-interieur/"
+                  target="_blank" rel="noopener">
+                  <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+                <a class="btn btn-outline-dark" href="https://www.facebook.com/profile.php?id=61587361541069"
+                  target="_blank" rel="noopener">
+                  <i class="bi bi-facebook"></i> Facebook
+                </a>
+                <a class="btn btn-outline-dark" href="https://www.instagram.com/agencementrenovationinterieur/"
+                  target="_blank" rel="noopener">
+                  <i class="bi bi-instagram"></i> Instagram
+                </a>
+              </div>
+
+              <p class="small text-muted mt-3 mb-0">
+                Astuce : tu peux garder aussi une page <code>contact.html</code> complète (déjà dans ton menu).
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+    <!-- /Contact + QR -->
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section light-background">
@@ -984,15 +1111,18 @@
                 </span>
               </div>
 
-              <h2>Transformez vos espaces avec PARIS DECOR</h2>
-              <p>De la préparation des supports aux finitions, nous prenons en charge votre rénovation avec des
-                matériaux professionnels et un suivi rigoureux.</p>
+              <h2>Parlez-nous de votre projet</h2>
+              <p>
+                Construction, rénovation, aménagement intérieur, ossature bois, bardage, second œuvre :
+                nous vous accompagnons avec un suivi rigoureux, une communication claire et des finitions durables.
+                Nous intervenons aussi en <strong>prestation</strong> et <strong>sous-traitance</strong>.
+              </p>
 
               <div class="feature-highlights">
                 <div class="highlight-item"><i class="bi bi-check-circle-fill"></i><span>Devis gratuit & conseils
-                    couleurs</span></div>
-                <div class="highlight-item"><i class="bi bi-check-circle-fill"></i><span>Respect des délais &
-                    propreté</span></div>
+                    techniques</span></div>
+                <div class="highlight-item"><i class="bi bi-check-circle-fill"></i><span>Respect des délais & chantier
+                    propre</span></div>
                 <div class="highlight-item"><i class="bi bi-check-circle-fill"></i><span>Service après-chantier
                     réactif</span></div>
               </div>
@@ -1005,10 +1135,9 @@
               <div class="form-container">
                 <div class="form-header">
                   <h3>Obtenir un devis</h3>
-                  <p>Décrivez votre projet, nous vous répondons sous 24h.</p>
+                  <p>Décrivez votre besoin, nous vous répondons sous 24/48h.</p>
                 </div>
 
-                <!-- Retirer action pour éviter l'envoi PHP -->
                 <form id="quoteForm" class="php-email-form" novalidate>
                   <div class="row g-3">
                     <div class="col-md-6">
@@ -1033,10 +1162,12 @@
                       <div class="form-group">
                         <select name="type" class="form-control" required>
                           <option value="">Type de projet</option>
-                          <option value="Peinture intérieure">Peinture intérieure</option>
-                          <option value="Vitrerie / remplacement">Vitrerie / remplacement</option>
-                          <option value="Carrelage / salle de bains">Carrelage / salle de bains</option>
-                          <option value="Parquet & sols">Parquet & sols</option>
+                          <option value="Rénovation d'hôtellerie">Rénovation d'hôtellerie</option>
+                          <option value="Aménagement intérieur">Aménagement intérieur</option>
+                          <option value="Ossature bois / charpente">Ossature bois / charpente</option>
+                          <option value="Bardage de façade">Bardage de façade</option>
+                          <option value="Peinture / finitions">Peinture / finitions</option>
+                          <option value="Sous-traitance / prestation">Sous-traitance / prestation</option>
                           <option value="Autre">Autre</option>
                         </select>
                       </div>
@@ -1045,7 +1176,7 @@
                     <div class="col-12">
                       <div class="form-group">
                         <textarea name="message" class="form-control" rows="4"
-                          placeholder="Détaillez votre besoin (surface, délais, photos…)" required></textarea>
+                          placeholder="Détaillez votre besoin (surface, lieu, délais, photos…)" required></textarea>
                       </div>
                     </div>
                   </div>
@@ -1061,30 +1192,29 @@
                     </button>
                     <div class="contact-alternative">
                       <span>Ou appelez-nous :</span>
-                      <a href="tel:+33699858005" class="phone-link">
-                        <i class="bi bi-telephone-fill"></i> +33 6 99 85 80 05
+                      <a href="tel:+33659946088" class="phone-link">
+                        <i class="bi bi-telephone-fill"></i> 06 59 94 60 88
                       </a>
                     </div>
                   </div>
                 </form>
               </div>
 
-              <!-- EmailJS SDK -->
-
               <div class="trust-indicators" data-aos="fade-up" data-aos-delay="400">
                 <div class="row g-3">
                   <div class="col-4">
                     <div class="trust-item">
                       <div class="trust-icon"><i class="bi bi-clock"></i></div>
-                      <div class="trust-content"><span class="trust-number">24h</span><span class="trust-label">Réponse
+                      <div class="trust-content"><span class="trust-number">24/48h</span><span
+                          class="trust-label">Réponse
                           devis</span></div>
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="trust-item">
-                      <div class="trust-icon"><i class="bi bi-star-fill"></i></div>
-                      <div class="trust-content"><span class="trust-number">4.9</span><span class="trust-label">Avis
-                          clients</span></div>
+                      <div class="trust-icon"><i class="bi bi-shield-check"></i></div>
+                      <div class="trust-content"><span class="trust-number">Assuré</span><span
+                          class="trust-label">RC/Déc.</span></div>
                     </div>
                   </div>
                   <div class="col-4">
@@ -1112,15 +1242,21 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">PARIS DECOR</span>
+            <span class="sitename">ARI BÂTIMENT</span>
           </a>
-          <p>Entreprise de rénovation à taille humaine spécialisée en peinture, vitrerie, carrelage et parquet. Nous
-            intervenons sur toute l’Île-de-France pour des finitions durables et soignées.</p>
+          <p>
+            SASU ARI Construction — entreprise générale de construction & rénovation à Drancy (93).
+            Spécialiste rénovation d’hôtellerie, aménagement intérieur, ossature bois, bardage, second œuvre &
+            finitions.
+            Prestations & sous-traitance en toute la France
+          </p>
           <div class="social-links d-flex mt-4">
-            <a href="#"><i class="bi bi-twitter-x"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61587361541069" aria-label="Facebook"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/agencementrenovationinterieur/" aria-label="Instagram"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/agencement-renovation-interieur/" aria-label="LinkedIn"><i
+                class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
@@ -1130,6 +1266,7 @@
             <li><a href="index.html">Accueil</a></li>
             <li><a href="about.html">L’entreprise</a></li>
             <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Réalisations</a></li>
             <li><a href="terms.html">Mentions légales</a></li>
             <li><a href="privacy.html">Confidentialité</a></li>
           </ul>
@@ -1138,30 +1275,34 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Nos métiers</h4>
           <ul>
-            <li><a href="services.html#services">Peinture</a></li>
-            <li><a href="services.html#services">Vitrerie</a></li>
-            <li><a href="services.html#services">Carrelage</a></li>
-            <li><a href="services.html#services">Parquet</a></li>
-            <li><a href="services.html#services">Cloisons & isolation</a></li>
+            <li><a href="services.html#services">Construction / rénovation</a></li>
+            <li><a href="services.html#services">Hôtellerie</a></li>
+            <li><a href="services.html#services">Aménagement intérieur</a></li>
+            <li><a href="services.html#services">Ossature bois</a></li>
+            <li><a href="services.html#services">Bardage</a></li>
+            <li><a href="services.html#services">Sous-traitance</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Nous contacter</h4>
-          <p>33 Rue de la Justice</p>
-          <p>93800 Épinay-sur-Seine</p>
+          <p>2 Rue Ribot</p>
+          <p>93700 Drancy</p>
           <p>France</p>
-          <p class="mt-4"><strong>Téléphone :</strong> <span>+33 6 99 85 80 05</span></p>
-          <p><strong>Email :</strong> <span>parisdecor.contact@gmail.com</span></p>
+          <p class="mt-4"><strong>Téléphone :</strong><br>
+            <span><a href="tel:+33659946088">06 59 94 60 88</a></span><br>
+            <span><a href="tel:+33748659544">07 48 65 95 44</a></span>
+          </p>
+          <p><strong>Email :</strong> <span><a
+                href="mailto:contact@ari-batiment.com">contact@ari-batiment.com</a></span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© 2025 | <span>Copyright</span> <strong class="px-1 sitename">PARIS DECOR</strong> <span>Tous droits
-          réservés</span>
-      </p>
+      <p>© 2017 - 2026 | <span>Copyright</span> <strong class="px-1 sitename">ARI BÂTIMENT</strong> <span>Tous droits
+          réservés</span></p>
       <div class="credits">
         By <a href="https://akamidev.github.io/MyResume/#services" target="_blank" rel="noopener noreferrer">AKAMI</a>
       </div>
@@ -1170,15 +1311,15 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -1191,8 +1332,8 @@
   <script>
     // ====== CONFIG EmailJS (publique) ======
     const SERVICE_ID = 'service_zdc6ou5';
-    const TEMPLATE_ID = 'template_ie5xrpz';      // ton modèle EmailJS
-    const PUBLIC_KEY = 'UDWdHiWlVXJ5uqkPa';    // ta Public Key
+    const TEMPLATE_ID = 'template_ie5xrpz';
+    const PUBLIC_KEY = 'UDWdHiWlVXJ5uqkPa';
 
     document.addEventListener('DOMContentLoaded', () => {
       const form = document.getElementById('quoteForm');
@@ -1211,21 +1352,19 @@
       form.addEventListener('submit', async (e) => {
         e.preventDefault();
 
-        // UI état
-        if (loadingEl) loadingEl.style.display = 'block';
-        if (errorEl) { errorEl.textContent = ''; errorEl.style.display = 'none'; }
-        if (sentEl) sentEl.style.display = 'none';
+        // UI état (force display même si un CSS met !important)
+        if (loadingEl) loadingEl.style.setProperty('display', 'block', 'important');
+        if (errorEl) { errorEl.textContent = ''; errorEl.style.setProperty('display', 'none', 'important'); }
+        if (sentEl) sentEl.style.setProperty('display', 'none', 'important');
 
         const fd = new FormData(form);
 
-        // Clés = variables attendues par TON modèle EmailJS
         const params = {
           from_name: fd.get('name') || '',
           from_email: fd.get('email') || '',
           phone: fd.get('phone') || '',
           type: fd.get('type') || '',
           message: fd.get('message') || '',
-          // utiles pour le sujet / le contenu
           page: document.title || 'Accueil — Devis',
           subject: `DEMANDE DEVIS — ${fd.get('type') || 'Projet'} — ${fd.get('name') || ''}`,
           time: new Date().toLocaleString('fr-FR')
@@ -1233,19 +1372,23 @@
 
         try {
           await emailjs.send(SERVICE_ID, TEMPLATE_ID, params);
-          if (loadingEl) loadingEl.style.display = 'none';
-          if (sentEl) sentEl.style.display = 'block';
+          if (loadingEl) loadingEl.style.setProperty('display', 'none', 'important');
+          if (sentEl) sentEl.style.setProperty('display', 'block', 'important');
           form.reset();
         } catch (err) {
-          if (loadingEl) loadingEl.style.display = 'none';
+          if (loadingEl) loadingEl.style.setProperty('display', 'none', 'important');
           if (errorEl) {
             errorEl.textContent = (err && err.text)
               ? `Erreur EmailJS : ${err.text}`
               : 'Service indisponible. Réessayez plus tard.';
-            errorEl.style.display = 'block';
+            errorEl.style.setProperty('display', 'block', 'important');
           }
           console.error('[EmailJS] Échec d’envoi :', err);
         }
       });
     });
   </script>
+
+</body>
+
+</html>

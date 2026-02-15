@@ -4,16 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>L’entreprise - PARIS DECOR</title>
+  <title>L’entreprise – ARI Bâtiment</title>
   <meta name="description"
-    content="PARIS DECOR — entreprise de rénovation (peinture, vitrerie, carrelage, parquet) en Île-de-France. Finitions soignées, devis rapides.">
-  <meta name="keywords" content="PARIS DECOR, rénovation, peinture, vitrerie, carrelage, parquet, Île-de-France">
+    content="ARI Bâtiment — entreprise de construction & rénovation en Île-de-France. Second œuvre, finitions haut de gamme, ossature bois et rénovation d’hôtellerie.">
+  <meta name="keywords"
+    content="ARI Bâtiment, rénovation, construction, aménagement intérieur, ossature bois, charpente, second œuvre, Île-de-France, Drancy">
 
   <!-- Favicons -->
-  <link rel="icon" href="assets/img/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/assets/img/favicon-v2.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32-v2.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16-v2.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/img/site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="background-color" content="#ffffff">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -40,25 +44,23 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a
-              href="mailto:parisdecor.contact@gmail.com">parisdecor.contact@gmail.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>06 99 85 80 05</span></i>
+          <i class="bi bi-envelope d-flex align-items-center">
+            <a href="mailto:contact@ari-batiment.com">contact@ari-batiment.com</a>
+          </i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>07 48 65 95 44</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
     </div><!-- End Top Bar -->
 
     <div class="branding d-flex align-items-cente">
-
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">PARIS DECOR</h1>
+          <img src="assets/img/logo-ari-construction.svg" alt="ARI Bâtiment" class="logo-img">
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -67,13 +69,19 @@
             <li><a href="about.html" class="active">L’entreprise</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="projects.html">Réalisations</a></li>
+            <li><a href="quote.html">Devis</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown"><a href="#"><span>Infos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="terms.html">Mentions & CGU</a></li>
+                <li><a href="privacy.html">Confidentialité</a></li>
+              </ul>
+            </li>
           </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Ouvrir le menu"></i>
         </nav>
 
       </div>
-
     </div>
 
   </header>
@@ -84,7 +92,7 @@
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
         <h1 class="mb-2 mb-lg-0">L’entreprise</h1>
-        <nav class="breadcrumbs">
+        <nav class="breadcrumbs" aria-label="Fil d’Ariane">
           <ol>
             <li><a href="index.html">Accueil</a></li>
             <li class="current">L’entreprise</li>
@@ -99,82 +107,116 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row align-items-center g-5">
+
           <div class="col-lg-6">
             <div class="about-content" data-aos="fade-right" data-aos-delay="200">
-              <h2>PARIS DECOR, la rénovation soignée en Île-de-France</h2>
-              <p class="lead">Entreprise à taille humaine basée à Épinay-sur-Seine, nous intervenons sur tout le second
-                œuvre : <strong>peinture</strong>, <strong>vitrerie</strong>, <strong>carrelage</strong>,
-                <strong>parquet</strong>, <strong>cloisons & isolation</strong>. Notre exigence : des supports
-                parfaitement préparés et des finitions durables.
+
+              <h2>ARI Construction : l’expertise au service de l’excellence</h2>
+
+              <p class="lead">
+                Dirigée par <strong>M. Kadir OZDEMIR</strong>, ARI Bâtiment accompagne des clients
+                <strong>exigeants</strong> sur des projets de <strong>construction</strong>, de <strong>second œuvre</strong>
+                et de <strong>finitions haut de gamme</strong> en Île-de-France.
+                Notre engagement : <strong>bâtir vos projets</strong> et <strong>dépasser vos attentes</strong>.
               </p>
-              <p>Nous accompagnons particuliers, pros et syndics de copropriété avec des devis clairs, un planning tenu
-                et un chantier propre. Matériaux certifiés A+ (faibles émissions de COV) et conseils techniques selon
-                vos pièces, usages et budgets.</p>
+
+              <p>
+                Nous intervenons en direct ou en sous-traitance, sur des chantiers de toutes envergures
+                (hôtellerie, tertiaire, résidentiel, modulaire bois), avec une exigence constante :
+                <strong>rigueur d’exécution</strong>, <strong>propreté</strong> et <strong>suivi</strong>.
+              </p>
+
+              <h5 class="mt-4">Notre expertise</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="d-flex mb-2"><i class="bi bi-check2-circle me-2"></i><span><strong>Plâtrerie</strong> : doublages, cloisons, plafonds, reprises et mise à niveau.</span></li>
+                <li class="d-flex mb-2"><i class="bi bi-check2-circle me-2"></i><span><strong>Menuiserie intérieure</strong> : habillages, portes, ajustements, détails sur mesure.</span></li>
+                <li class="d-flex mb-2"><i class="bi bi-check2-circle me-2"></i><span><strong>Bardages</strong> : solutions bois, finitions, jonctions et points singuliers.</span></li>
+                <li class="d-flex"><i class="bi bi-check2-circle me-2"></i><span><strong>Peinture & finitions</strong> : préparation supports, couches, rendu propre et durable.</span></li>
+              </ul>
 
               <div class="achievement-boxes row g-4 mt-4">
                 <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
                   <div class="achievement-box">
-                    <h3>15+</h3>
+                    <h3>10+</h3>
                     <p>années d’expérience</p>
                   </div>
                 </div>
                 <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
                   <div class="achievement-box">
-                    <h3>350+</h3>
-                    <p>chantiers livrés</p>
+                    <h3>200+</h3>
+                    <p>interventions</p>
                   </div>
                 </div>
                 <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="500">
                   <div class="achievement-box">
-                    <h3>4.9/5</h3>
-                    <p>avis clients</p>
+                    <h3>4.8/5</h3>
+                    <p>satisfaction</p>
                   </div>
                 </div>
                 <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="600">
                   <div class="achievement-box">
                     <h3>100%</h3>
-                    <p>engagés sécurité</p>
+                    <p>chantier suivi</p>
                   </div>
                 </div>
               </div>
 
               <div class="certifications mt-5" data-aos="fade-up" data-aos-delay="700">
-                <h5>Engagements &amp; garanties</h5>
-                <div class="row g-3 align-items-center">
-                  <div class="col-4 col-md-3">
-                    <img src="assets/img/construction/badge-4.webp" alt="Assurance & responsabilité civile"
-                      class="img-fluid">
-                  </div>
-                  <div class="col-4 col-md-3">
-                    <img src="assets/img/construction/badge-3.webp" alt="Qualité matériaux A+" class="img-fluid">
-                  </div>
-                  <div class="col-4 col-md-3">
-                    <img src="assets/img/construction/badge-5.webp" alt="Respect des délais & sécurité"
-                      class="img-fluid">
-                  </div>
-                </div>
+                <h5>Nos garanties</h5>
+                <p class="mb-3">
+                  Une entreprise fiable, c’est aussi des garanties et des obligations à jour, pour travailler sereinement.
+                </p>
+                <ul class="list-unstyled mb-3">
+                  <li class="d-flex mb-2"><i class="bi bi-shield-check me-2"></i><span>Assurance Décennale (SMABTP)</span></li>
+                  <li class="d-flex mb-2"><i class="bi bi-shield-check me-2"></i><span>Responsabilité Civile Professionnelle (SMABTP)</span></li>
+                  <li class="d-flex"><i class="bi bi-shield-check me-2"></i><span>Quitus légal (URSSAF, PRO BTP, CIBTP)</span></li>
+                </ul>
+                <p class="mb-0"><em>À jour de toutes les obligations administratives.</em></p>
               </div>
 
-              <div class="cta-container mt-5" data-aos="fade-up" data-aos-delay="800">
+              <div class="mt-5" data-aos="fade-up" data-aos-delay="750">
+                <h5>Pourquoi nous choisir</h5>
+                <ul class="list-unstyled mb-0">
+                  <li class="d-flex mb-2"><i class="bi bi-dot me-2"></i><span><strong>Expertise technique</strong> : maîtrise des normes et des méthodes du second œuvre.</span></li>
+                  <li class="d-flex mb-2"><i class="bi bi-dot me-2"></i><span><strong>Qualité artisanale</strong> : soin des finitions, même sur chantiers exigeants.</span></li>
+                  <li class="d-flex mb-2"><i class="bi bi-dot me-2"></i><span><strong>Délais & budgets</strong> : organisation claire, priorités, coordination.</span></li>
+                  <li class="d-flex mb-2"><i class="bi bi-dot me-2"></i><span><strong>Confiance</strong> : transparence, réactivité, suivi à chaque étape.</span></li>
+                  <li class="d-flex"><i class="bi bi-dot me-2"></i><span><strong>Sur-mesure</strong> : approche adaptée aux contraintes de chaque projet.</span></li>
+                </ul>
+              </div>
+
+              <div class="mt-5" data-aos="fade-up" data-aos-delay="800">
+                <h5>Notre processus qualité</h5>
+                <p class="mb-0">
+                  1) Étude & conception &nbsp;•&nbsp;
+                  2) Planification & coordination &nbsp;•&nbsp;
+                  3) Exécution & suivi &nbsp;•&nbsp;
+                  4) Réception & levée des réserves &nbsp;•&nbsp;
+                  5) Garantie & service client
+                </p>
+              </div>
+
+              <div class="cta-container mt-5" data-aos="fade-up" data-aos-delay="850">
                 <a href="quote.html" class="btn btn-primary">Demander un devis</a>
               </div>
+
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="about-image position-relative" data-aos="fade-left" data-aos-delay="200">
-              <img src="assets/img/construction/project-3.webp" alt="Équipe PARIS DECOR sur chantier"
+              <img src="assets/img/construction/about-hero.webp" alt="ARI Bâtiment — second œuvre et finitions"
                 class="img-fluid main-image rounded">
               <div class="image-overlay">
-                <img src="assets/img/construction/project-7.webp" alt="Finitions peinture & carrelage"
-                  class="img-fluid rounded">
+                <img src="assets/img/construction/about-2.webp" alt="Chantier bois — ARI Bâtiment" class="img-fluid rounded">
               </div>
               <div class="experience-badge" data-aos="zoom-in" data-aos-delay="500">
-                <span>ÎdF</span>
-                <p>Intervention rapide</p>
+                <span>93</span>
+                <p>Drancy (ÎdF)</p>
               </div>
             </div>
           </div>
+
         </div>
 
       </div>
@@ -189,12 +231,13 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">PARIS DECOR</span>
+            <span class="sitename">ARI BÂTIMENT</span>
           </a>
-          <p>Entreprise de rénovation à taille humaine spécialisée en peinture, vitrerie, carrelage et parquet. Nous
-            intervenons sur toute l’Île-de-France pour des finitions durables et soignées.</p>
+          <p>
+            Construction & rénovation : second œuvre, finitions haut de gamme, bois et coordination de chantier.
+            Rigueur, propreté et suivi sérieux.
+          </p>
           <div class="social-links d-flex mt-4">
-            <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
             <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -205,38 +248,40 @@
           <h4>Liens utiles</h4>
           <ul>
             <li><a href="index.html">Accueil</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
             <li><a href="about.html">L’entreprise</a></li>
             <li><a href="services.html">Services</a></li>
+            <li><a href="quote.html">Devis</a></li>
             <li><a href="terms.html">Mentions légales</a></li>
             <li><a href="privacy.html">Politique de confidentialité</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Nos métiers</h4>
+          <h4>Nos services</h4>
           <ul>
-            <li><a href="services.html#services">Peinture</a></li>
-            <li><a href="services.html#services">Vitrerie</a></li>
-            <li><a href="services.html#services">Carrelage</a></li>
-            <li><a href="services.html#services">Parquet</a></li>
-            <li><a href="services.html#services">Cloisons &amp; isolation</a></li>
+            <li><a href="services.html#services">Rénovation d’hôtellerie</a></li>
+            <li><a href="services.html#services">Aménagement intérieur</a></li>
+            <li><a href="services.html#services">Ossature bois</a></li>
+            <li><a href="services.html#services">Second œuvre</a></li>
+            <li><a href="services.html#services">Sous-traitance</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Nous contacter</h4>
-          <p>33 Rue de la Justice</p>
-          <p>93800 Épinay-sur-Seine</p>
+          <p>2 Rue Ribot</p>
+          <p>93700 Drancy</p>
           <p>France</p>
-          <p class="mt-4"><strong>Téléphone :</strong> <span>+33 6 99 85 80 05</span></p>
-          <p><strong>Email :</strong> <span>parisdecor.contact@gmail.com</span></p>
+          <p class="mt-4"><strong>Téléphone :</strong> <span>07 48 65 95 44</span></p>
+          <p><strong>Email :</strong> <span>contact@ari-batiment.com</span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© 2025 | <span>Copyright</span> <strong class="px-1 sitename">PARIS DECOR</strong> <span>Tous droits
+      <p>© 2026 | <span>Copyright</span> <strong class="px-1 sitename">ARI BÂTIMENT</strong> <span>Tous droits
           réservés</span>
       </p>
       <div class="credits">
@@ -247,11 +292,11 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"
+    aria-label="Haut de page"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
-  <div id="preloader"></div>
+  <div id="preloader" aria-hidden="true"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

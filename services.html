@@ -4,17 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Services - PARIS DECOR</title>
-  <meta name="description" content="Peinture, vitrerie, carrelage, parquet, cloisons & isolation en Île-de-France.">
+  <title>Services - ARI Bâtiment</title>
+  <meta name="description"
+    content="Entreprise générale de construction & rénovation : aménagement intérieur, rénovation d’hôtellerie, ossature bois, second œuvre et sous-traitance en toute la France">
   <meta name="keywords"
-    content="peinture, vitrerie, carrelage, parquet, rénovation, cloisons, isolation, Île-de-France">
+    content="ARI Bâtiment, rénovation, construction, aménagement intérieur, rénovation hôtellerie, ossature bois, second œuvre, sous-traitance, Toute la France">
 
   <!-- Favicons -->
-  <!-- Favicons -->
-  <link rel="icon" href="assets/img/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/assets/img/favicon-v2.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32-v2.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16-v2.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/img/site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="background-color" content="#ffffff">
+
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -41,9 +45,10 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a
-              href="mailto:parisdecor.contact@gmail.com">parisdecor.contact@gmail.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>06 99 85 80 05</span></i>
+          <i class="bi bi-envelope d-flex align-items-center">
+            <a href="mailto:contact@ari-batiment.com">contact@ari-batiment.com</a>
+          </i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>07 48 65 95 44</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -57,18 +62,26 @@
     <div class="branding d-flex align-items-cente">
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <h1 class="sitename">PARIS DECOR</h1>
+          <img src="assets/img/logo-ari-construction.svg" alt="ARI Bâtiment" class="logo-img">
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="index.html">Accueil</a></li>
-            <li><a href="about.html">L’entreprise</a></li>
-            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="about.html" class="active">L’entreprise</a></li>
+            <li><a href="services.html">Services</a></li>
             <li><a href="projects.html">Réalisations</a></li>
+            <li><a href="quote.html">Devis</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown"><a href="#"><span>Infos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="terms.html">Mentions & CGU</a></li>
+                <li><a href="privacy.html">Confidentialité</a></li>
+              </ul>
+            </li>
+
           </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Ouvrir le menu"></i>
         </nav>
       </div>
     </div>
@@ -89,162 +102,109 @@
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Services Section -->
+    <!-- ======= Services Section ======= -->
     <section id="services" class="services section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
-          <!-- Peinture -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Rénovation hôtellerie -->
+          <div class="col-lg-4">
             <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-brush"></i>
-              </div>
-              <h3>Peinture intérieure &amp; extérieure</h3>
-              <p>Préparation des supports, enduits, sous-couches, finitions mates/satinées/laquées. Peintures A+ faible
-                émission COV, teintes au nuancier.</p>
+              <div class="service-icon"><i class="bi bi-building-gear"></i></div>
+              <h3>Rénovation d’hôtellerie</h3>
+              <p>Rénovation de chambres, couloirs et parties communes avec organisation, protection et finitions
+                durables.</p>
               <div class="service-features">
-                <span><i class="bi bi-check-circle"></i> Murs &amp; plafonds</span>
-                <span><i class="bi bi-check-circle"></i> Boiseries &amp; métaux</span>
-                <span><i class="bi bi-check-circle"></i> Ravalement léger</span>
+                <span><i class="bi bi-check-circle"></i> Planning & phasage</span>
+                <span><i class="bi bi-check-circle"></i> Protection chantier</span>
+                <span><i class="bi bi-check-circle"></i> Finitions premium</span>
               </div>
               <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-          <!-- Vitrerie -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <!-- Aménagement intérieur -->
+          <div class="col-lg-4">
             <div class="service-card featured">
               <div class="service-badge">Le plus demandé</div>
-              <div class="service-icon">
-                <i class="bi bi-windows"></i>
-              </div>
-              <h3>Vitrerie &amp; remplacement</h3>
-              <p>Pose et remplacement de vitrages simples, doubles vitrages, joints et mastics. Dépannage après casse et
-                étanchéité.</p>
+              <div class="service-icon"><i class="bi bi-layout-text-window-reverse"></i></div>
+              <h3>Aménagement intérieur</h3>
+              <p>Cloisons, doublages, plafonds, habillages, rangements et finitions soignées.</p>
               <div class="service-features">
-                <span><i class="bi bi-check-circle"></i> Découpe sur mesure</span>
-                <span><i class="bi bi-check-circle"></i> Double vitrage</span>
-                <span><i class="bi bi-check-circle"></i> Étanchéité &amp; joints</span>
+                <span><i class="bi bi-check-circle"></i> Cloisons & plafonds</span>
+                <span><i class="bi bi-check-circle"></i> Habillages</span>
+                <span><i class="bi bi-check-circle"></i> Finitions propres</span>
               </div>
               <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-          <!-- Carrelage -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <!-- Second œuvre -->
+          <div class="col-lg-4">
             <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-grid-1x2"></i>
-              </div>
-              <h3>Carrelage &amp; faïence</h3>
-              <p>Préparation des sols/murs, pose droite ou diagonale, joints hydrofuges. Salles de bains, cuisines,
-                crédences et terrasses.</p>
+              <div class="service-icon"><i class="bi bi-tools"></i></div>
+              <h3>Second œuvre</h3>
+              <p>Préparation des supports, pose, reprises et coordination pour un chantier maîtrisé.</p>
               <div class="service-features">
-                <span><i class="bi bi-check-circle"></i> SDB &amp; cuisines</span>
-                <span><i class="bi bi-check-circle"></i> Grès cérame/FAIENCE</span>
-                <span><i class="bi bi-check-circle"></i> Réparation &amp; reprise</span>
-              </div>
-              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-          <!-- charpente & ossature bois -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="350">
-            <div class="service-card featured">
-              <div class="service-badge">Structure bois</div>
-              <div class="service-icon">
-                <i class="bi bi-house-gear"></i>
-              </div>
-              <h3>Charpente &amp; ossature bois</h3>
-              <p>Conception et pose d’ossature bois, fermettes, pannes et chevrons. Renforts de structure, planchers et
-                préparation à la couverture pour une durabilité optimale.</p>
-              <div class="service-features">
-                <span><i class="bi bi-check-circle"></i> Étude &amp; renforts</span>
-                <span><i class="bi bi-check-circle"></i> Traitement fongicide/insecticide</span>
-                <span><i class="bi bi-check-circle"></i> Prépa couverture &amp; étanchéité</span>
+                <span><i class="bi bi-check-circle"></i> Préparation</span>
+                <span><i class="bi bi-check-circle"></i> Pose</span>
+                <span><i class="bi bi-check-circle"></i> Contrôle qualité</span>
               </div>
               <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-image-block">
-              <img src="assets/img/construction/project-1.webp" alt="Travaux de second œuvre - PARIS DECOR"
-                class="img-fluid">
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-list-block">
-              <h3>Autres interventions</h3>
-              <p>Une équipe polyvalente pour vos chantiers de rénovation en Île-de-France, avec devis clair et délais
-                tenus.</p>
-
-              <div class="service-list">
-                <!-- Parquet -->
-                <div class="service-list-item" data-aos="fade-up" data-aos-delay="100">
-                  <div class="service-list-icon">
-                    <i class="bi bi-layers-half"></i>
-                  </div>
-                  <div class="service-list-content">
-                    <h4>Parquet flottant &amp; collé</h4>
-                    <p>Préparation des supports, sous-couches acoustiques, plinthes assorties. Ponçage léger et
-                      vitrification possible.</p>
-                  </div>
-                </div>
-
-                <!-- Cloisons -->
-                <div class="service-list-item" data-aos="fade-up" data-aos-delay="200">
-                  <div class="service-list-icon">
-                    <i class="bi bi-layout-split"></i>
-                  </div>
-                  <div class="service-list-content">
-                    <h4>Cloisons &amp; isolation</h4>
-                    <p>Création de cloisons en plaques de plâtre, doublages, faux-plafonds, isolation thermique &amp;
-                      phonique.</p>
-                  </div>
-                </div>
-
-                <!-- Préparation/finition -->
-                <div class="service-list-item" data-aos="fade-up" data-aos-delay="300">
-                  <div class="service-list-icon">
-                    <i class="bi bi-tools"></i>
-                  </div>
-                  <div class="service-list-content">
-                    <h4>Préparation &amp; finitions</h4>
-                    <p>Dépose d’anciens revêtements, rebouchages, ratissage, enduits décoratifs, papiers peints &amp;
-                      revêtements muraux.</p>
-                  </div>
-                </div>
-                <!-- Charpente / Ossature bois -->
-                <div class="service-list-item" data-aos="fade-up" data-aos-delay="350">
-                  <div class="service-list-icon">
-                    <i class="bi bi-house-gear"></i>
-                  </div>
-                  <div class="service-list-content">
-                    <h4>Charpente &amp; ossature bois</h4>
-                    <p>Conception et pose d’ossature bois, renforts de structure, planchers, pannes et chevrons.
-                      Traitement, redressement et reprises de charpente, préparée pour une couverture durable.</p>
-                  </div>
-                </div>
+          <!-- Charpente MOB -->
+          <div class="col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-house-gear"></i></div>
+              <h3>Charpente & ossature bois (MOB)</h3>
+              <p>Charpente traditionnelle, murs MOB, renforts structurels et traitement bois.</p>
+              <div class="service-features">
+                <span><i class="bi bi-check-circle"></i> Charpente</span>
+                <span><i class="bi bi-check-circle"></i> Ossature bois</span>
+                <span><i class="bi bi-check-circle"></i> Traitement & durabilité</span>
               </div>
+              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
-        </div>
 
-        <div class="cta-container text-center mt-5" data-aos="fade-up" data-aos-delay="300">
-          <h3>Besoin d’un devis rapide ?</h3>
-          <p>Expliquez-nous votre projet et recevez une estimation détaillée sous 24–72h.</p>
-          <a href="quote.html" class="btn btn-cta">Demander un devis</a>
+          <!-- Bardage -->
+          <div class="col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-layers"></i></div>
+              <h3>Bardage & panneaux extérieurs</h3>
+              <p>Bardage bois, HardiePanel, ossature secondaire, pare-pluie et finitions façade.</p>
+              <div class="service-features">
+                <span><i class="bi bi-check-circle"></i> Bardage bois</span>
+                <span><i class="bi bi-check-circle"></i> HardiePanel</span>
+                <span><i class="bi bi-check-circle"></i> Finitions façade</span>
+              </div>
+              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Couverture -->
+          <div class="col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-shield-check"></i></div>
+              <h3>Couverture & étanchéité</h3>
+              <p>Écran sous-toiture, liteaux, raccords et protection durable contre les infiltrations.</p>
+              <div class="service-features">
+                <span><i class="bi bi-check-circle"></i> Sous-toiture</span>
+                <span><i class="bi bi-check-circle"></i> Étanchéité</span>
+                <span><i class="bi bi-check-circle"></i> Points singuliers</span>
+              </div>
+              <a href="quote.html" class="service-link">Demander un devis <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
         </div>
 
       </div>
-
-    </section><!-- /Services Section -->
+    </section>
 
   </main>
 
@@ -253,10 +213,13 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">PARIS DECOR</span>
+            <span class="sitename">ARI BÂTIMENT</span>
           </a>
-          <p>Entreprise de rénovation à taille humaine spécialisée en peinture, vitrerie, carrelage et parquet. Nous
-            intervenons sur toute l’Île-de-France pour des finitions durables et soignées.</p>
+          <p>
+            Entreprise générale de construction & rénovation : rénovation d’hôtellerie, aménagement intérieur, ossature
+            bois,
+            second œuvre et sous-traitance en toute la France
+          </p>
           <div class="social-links d-flex mt-4">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -269,37 +232,41 @@
           <h4>Liens utiles</h4>
           <ul>
             <li><a href="index.html">Accueil</a></li>
-            <li><a href="about.html">L’entreprise</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
             <li><a href="services.html">Services</a></li>
+            <li><a href="quote.html">Devis</a></li>
             <li><a href="terms.html">Mentions légales</a></li>
             <li><a href="privacy.html">Politique de confidentialité</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Nos métiers</h4>
+          <h4>Nos services</h4>
           <ul>
-            <li><a href="services.html#services">Peinture</a></li>
-            <li><a href="services.html#services">Vitrerie</a></li>
-            <li><a href="services.html#services">Carrelage</a></li>
-            <li><a href="services.html#services">Parquet</a></li>
-            <li><a href="services.html#services">Cloisons &amp; isolation</a></li>
+            <li><a href="services.html#services">Rénovation d’hôtellerie</a></li>
+            <li><a href="services.html#services">Aménagement intérieur</a></li>
+            <li><a href="services.html#services">Charpente & ossature bois (MOB)</a></li>
+            <li><a href="services.html#services">Bardage & panneaux extérieurs</a></li>
+            <li><a href="services.html#services">Couverture & étanchéité</a></li>
+            <li><a href="services.html#services">Second œuvre</a></li>
+            <li><a href="services.html#services">Sous-traitance</a></li>
           </ul>
+
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Nous contacter</h4>
-          <p>33 Rue de la Justice</p>
-          <p>93800 Épinay-sur-Seine</p>
+          <p>2 Rue Ribot</p>
+          <p>93700 Drancy</p>
           <p>France</p>
-          <p class="mt-4"><strong>Téléphone :</strong> <span>+33 6 99 85 80 05</span></p>
-          <p><strong>Email :</strong> <span>parisdecor.contact@gmail.com</span></p>
+          <p class="mt-4"><strong>Téléphone :</strong> <span>07 48 65 95 44</span></p>
+          <p><strong>Email :</strong> <span>contact@ari-batiment.com</span></p>
         </div>
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© 2025 | <span>Copyright</span> <strong class="px-1 sitename">PARIS DECOR</strong> <span>Tous droits
+      <p>© 2026 | <span>Copyright</span> <strong class="px-1 sitename">ARI BÂTIMENT</strong> <span>Tous droits
           réservés</span>
       </p>
       <div class="credits">
